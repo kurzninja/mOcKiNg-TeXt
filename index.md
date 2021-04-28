@@ -1,14 +1,23 @@
-<meta charset="utf-8">
+<div id="app" class="container">
 
-<meta name="viewport" content="width=device-width, initial-scale=1">
+# Mocking Text Transformer ![](MSB.jpg)
 
-<title>mOcKiNg SpOnGeBoB tExT gEnErAtOr</title>
+<div class="row">
 
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+<div class="col-5"><label for="inputText">Input your text here:</label></div>
 
-<div id="app" class="container"><h1 class="display-2 text-center">Mocking Text Transformer <img src="MSB.jpg" height="24%" width="24%"></h1><div class="row"><div class="col-5"><label for="inputText">Input your text here:</label></div><div class="col-2"></div><div class="col-5"><label for="outputText">Your output will appear here</label></div></div><div class="row"><div class="col-5"><textarea rows="8" cols="50" class="mocking" v-model="text" id="inputText"></textarea></div><div class="col-2"><span <="" div="">¨NBSP;<div class="col-5"><textarea rows="8" class="mocking" v-model="mocking"></textarea></div></span></div><!--
-		<button>Copy to Clipboard</button>
-		<transition name="fade">
-			<span v-if="copied">tExT HaS BeEn cOpIeD To yOuR ClIpBoArD</span>
-		</transition>
-	--></div><style>	.mocking {	font-size: 1.25em;	font-weight: bold;	border-style: dotted;	width: 100%;	}	.fade-enter-active,	.fade-leave-active {	transition: opacity .5s;	}	.fade-enter,	.fade-leave-to {	opacity: 0;	}	</style><script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script><script src="./mocking.js"></script></div>
+<div class="col-5"><label for="outputText">Your output will appear here</label></div>
+
+</div>
+
+<div class="row">
+
+<div class="col-5"><textarea rows="8" cols="50" class="mocking" v-model="text" id="inputText"></textarea></div>
+
+<div class="col-5"><textarea rows="8" class="mocking" v-model="mocking"></textarea></div>
+
+</div>
+
+</div>
+
+<style>.mocking { font-size: 1.25em; font-weight: bold; border-style: dotted; width: 100%; } .fade-enter-active, .fade-leave-active { transition: opacity .5s; } .fade-enter, .fade-leave-to { opacity: 0; }</style>
